@@ -1,0 +1,155 @@
+================================================================================
+Modelo: Naive_Bayes
+Configuración: BOW + stemming
+{'configuracion': 'BOW + stemming', 'representacion': 'bow', 'procesamiento': 'stemming', 'modelo': 'Naive_Bayes', 'train_accuracy': 0.9373, 'test_accuracy': 0.9363, 'precision': 0.9858, 'recall': 0.9456, 'f1_score': 0.9653, 'test_loss': 0.3294, 'tiempo_entrenamiento_seg': 194.5015, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.50      0.80      0.62     11430
+    Positivo       0.99      0.95      0.97    165851
+
+    accuracy                           0.94    177281
+   macro avg       0.74      0.87      0.79    177281
+weighted avg       0.95      0.94      0.94    177281
+
+================================================================================
+Modelo: Logistic_Regression
+Configuración: BOW + stemming
+{'configuracion': 'BOW + stemming', 'representacion': 'bow', 'procesamiento': 'stemming', 'modelo': 'Logistic_Regression', 'train_accuracy': 0.9723, 'test_accuracy': 0.9698, 'precision': 0.9769, 'recall': 0.9912, 'f1_score': 0.984, 'test_loss': 0.0887, 'tiempo_entrenamiento_seg': 234.9781, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.84      0.66      0.74     11430
+    Positivo       0.98      0.99      0.98    165851
+
+    accuracy                           0.97    177281
+   macro avg       0.91      0.83      0.86    177281
+weighted avg       0.97      0.97      0.97    177281
+
+================================================================================
+Modelo: SVM_Lineal
+Configuración: BOW + stemming
+{'configuracion': 'BOW + stemming', 'representacion': 'bow', 'procesamiento': 'stemming', 'modelo': 'SVM_Lineal', 'train_accuracy': 0.9715, 'test_accuracy': 0.9691, 'precision': 0.9752, 'recall': 0.9922, 'f1_score': 0.9836, 'test_loss': None, 'tiempo_entrenamiento_seg': 210.8646, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.85      0.63      0.73     11430
+    Positivo       0.98      0.99      0.98    165851
+
+    accuracy                           0.97    177281
+   macro avg       0.91      0.81      0.85    177281
+weighted avg       0.97      0.97      0.97    177281
+
+================================================================================
+Modelo: Naive_Bayes
+Configuración: TFIDF + stemming
+{'configuracion': 'TFIDF + stemming', 'representacion': 'tfidf', 'procesamiento': 'stemming', 'modelo': 'Naive_Bayes', 'train_accuracy': 0.9482, 'test_accuracy': 0.9479, 'precision': 0.9478, 'recall': 0.9994, 'f1_score': 0.9729, 'test_loss': 0.1224, 'tiempo_entrenamiento_seg': 177.671, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.96      0.20      0.33     11430
+    Positivo       0.95      1.00      0.97    165851
+
+    accuracy                           0.95    177281
+   macro avg       0.95      0.60      0.65    177281
+weighted avg       0.95      0.95      0.93    177281
+
+================================================================================
+Modelo: Logistic_Regression
+Configuración: TFIDF + stemming
+{'configuracion': 'TFIDF + stemming', 'representacion': 'tfidf', 'procesamiento': 'stemming', 'modelo': 'Logistic_Regression', 'train_accuracy': 0.9718, 'test_accuracy': 0.9702, 'precision': 0.9762, 'recall': 0.9923, 'f1_score': 0.9842, 'test_loss': 0.0819, 'tiempo_entrenamiento_seg': 199.0773, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.85      0.65      0.74     11430
+    Positivo       0.98      0.99      0.98    165851
+
+    accuracy                           0.97    177281
+   macro avg       0.91      0.82      0.86    177281
+weighted avg       0.97      0.97      0.97    177281
+
+================================================================================
+Modelo: SVM_Lineal
+Configuración: TFIDF + stemming
+{'configuracion': 'TFIDF + stemming', 'representacion': 'tfidf', 'procesamiento': 'stemming', 'modelo': 'SVM_Lineal', 'train_accuracy': 0.9732, 'test_accuracy': 0.9711, 'precision': 0.9779, 'recall': 0.9915, 'f1_score': 0.9847, 'test_loss': None, 'tiempo_entrenamiento_seg': 254.298, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.85      0.68      0.75     11430
+    Positivo       0.98      0.99      0.98    165851
+
+    accuracy                           0.97    177281
+   macro avg       0.91      0.83      0.87    177281
+weighted avg       0.97      0.97      0.97    177281
+
+================================================================================
+Modelo: Naive_Bayes
+Configuración: BOW + lemmatization
+{'configuracion': 'BOW + lemmatization', 'representacion': 'bow', 'procesamiento': 'lemmatization', 'modelo': 'Naive_Bayes', 'train_accuracy': 0.9373, 'test_accuracy': 0.9363, 'precision': 0.9858, 'recall': 0.9456, 'f1_score': 0.9653, 'test_loss': 0.3294, 'tiempo_entrenamiento_seg': 181.8573, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.50      0.80      0.62     11430
+    Positivo       0.99      0.95      0.97    165851
+
+    accuracy                           0.94    177281
+   macro avg       0.74      0.87      0.79    177281
+weighted avg       0.95      0.94      0.94    177281
+
+================================================================================
+Modelo: Logistic_Regression
+Configuración: BOW + lemmatization
+{'configuracion': 'BOW + lemmatization', 'representacion': 'bow', 'procesamiento': 'lemmatization', 'modelo': 'Logistic_Regression', 'train_accuracy': 0.9723, 'test_accuracy': 0.9698, 'precision': 0.9769, 'recall': 0.9912, 'f1_score': 0.984, 'test_loss': 0.0887, 'tiempo_entrenamiento_seg': 212.5594, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.84      0.66      0.74     11430
+    Positivo       0.98      0.99      0.98    165851
+
+    accuracy                           0.97    177281
+   macro avg       0.91      0.83      0.86    177281
+weighted avg       0.97      0.97      0.97    177281
+
+================================================================================
+Modelo: SVM_Lineal
+Configuración: BOW + lemmatization
+{'configuracion': 'BOW + lemmatization', 'representacion': 'bow', 'procesamiento': 'lemmatization', 'modelo': 'SVM_Lineal', 'train_accuracy': 0.9715, 'test_accuracy': 0.9691, 'precision': 0.9752, 'recall': 0.9922, 'f1_score': 0.9836, 'test_loss': None, 'tiempo_entrenamiento_seg': 203.5835, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.85      0.63      0.73     11430
+    Positivo       0.98      0.99      0.98    165851
+
+    accuracy                           0.97    177281
+   macro avg       0.91      0.81      0.85    177281
+weighted avg       0.97      0.97      0.97    177281
+
+================================================================================
+Modelo: Naive_Bayes
+Configuración: TFIDF + lemmatization
+{'configuracion': 'TFIDF + lemmatization', 'representacion': 'tfidf', 'procesamiento': 'lemmatization', 'modelo': 'Naive_Bayes', 'train_accuracy': 0.9482, 'test_accuracy': 0.9479, 'precision': 0.9478, 'recall': 0.9994, 'f1_score': 0.9729, 'test_loss': 0.1224, 'tiempo_entrenamiento_seg': 189.2878, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.96      0.20      0.33     11430
+    Positivo       0.95      1.00      0.97    165851
+
+    accuracy                           0.95    177281
+   macro avg       0.95      0.60      0.65    177281
+weighted avg       0.95      0.95      0.93    177281
+
+================================================================================
+Modelo: Logistic_Regression
+Configuración: TFIDF + lemmatization
+{'configuracion': 'TFIDF + lemmatization', 'representacion': 'tfidf', 'procesamiento': 'lemmatization', 'modelo': 'Logistic_Regression', 'train_accuracy': 0.9718, 'test_accuracy': 0.9702, 'precision': 0.9762, 'recall': 0.9923, 'f1_score': 0.9842, 'test_loss': 0.0819, 'tiempo_entrenamiento_seg': 206.2924, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.85      0.65      0.74     11430
+    Positivo       0.98      0.99      0.98    165851
+
+    accuracy                           0.97    177281
+   macro avg       0.91      0.82      0.86    177281
+weighted avg       0.97      0.97      0.97    177281
+
+================================================================================
+Modelo: SVM_Lineal
+Configuración: TFIDF + lemmatization
+{'configuracion': 'TFIDF + lemmatization', 'representacion': 'tfidf', 'procesamiento': 'lemmatization', 'modelo': 'SVM_Lineal', 'train_accuracy': 0.9732, 'test_accuracy': 0.9711, 'precision': 0.9779, 'recall': 0.9915, 'f1_score': 0.9847, 'test_loss': None, 'tiempo_entrenamiento_seg': 139.2664, 'num_documentos': 886404}
+              precision    recall  f1-score   support
+
+    Negativo       0.85      0.68      0.75     11430
+    Positivo       0.98      0.99      0.98    165851
+
+    accuracy                           0.97    177281
+   macro avg       0.91      0.83      0.87    177281
+weighted avg       0.97      0.97      0.97    177281
