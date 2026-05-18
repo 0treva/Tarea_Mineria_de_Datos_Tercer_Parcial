@@ -21,6 +21,12 @@ En caso de que no se puedan apreciar correctamente los archivos dentro del repos
 **Video presentación:**  
 Aquí va a ir el link
 
+**Reporte:**  
+https://drive.google.com/file/d/1MLQuLCaDFAXmqXnyJ4srE7LlYpcMZ81A/view?usp=drive_link
+
+**Presentación:**  
+https://drive.google.com/file/d/1PaGRIaY3WlA3bMl8apvbDUdwQSH3yDJN/view?usp=drive_link
+
 **Drive:**  
 https://drive.google.com/drive/folders/1Wvi1d3FDzKuR1Ua-TXTCoZ5hsnXe3hFd?usp=sharing
 
